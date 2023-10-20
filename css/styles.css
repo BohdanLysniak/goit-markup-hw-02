@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: #ffffff;
+  font-weight: 500;
+}
+
+.address {
+  font-weight: 400;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 56;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.title {
+  background-color: #2e2f42;
+}
+
+.nav .accent-web {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.nav .accent-studio {
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: #4d5ae5;
+}
