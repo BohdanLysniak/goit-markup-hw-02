@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", "Raleway" sans-serif;
   font-size: 16;
   line-height: 1.5;
+  letter-spacing: 2%;
   color: #434455;
   background-color: #ffffff;
 }
@@ -10,17 +11,19 @@ ul {
   list-style-type: none;
 }
 
-.nav .accent-web {
+.accent-web {
   font-size: 18;
   font-weight: 700;
   line-height: 1.667;
+  letter-spacing: 3%;
   color: #4d5ae5;
 }
 
-.nav .accent-studio {
+.accent-studio {
   font-size: 18;
   font-weight: 700;
   line-height: 1.667;
+  letter-spacing: 3%;
   color: #2e2f42;
 }
 
@@ -43,11 +46,15 @@ ul {
   color: #4d5ae5;
 }
 
-.title {
+.link:active {
+  text-decoration: underline;
+}
+
+.section-title {
   background-color: #2e2f42;
 }
 
-.page-title {
+.title {
   color: #ffffff;
   font-size: 56;
   font-weight: 700;
@@ -56,10 +63,38 @@ ul {
 }
 
 .button {
+  font-weight: 500;
   background-color: #4d5ae5;
   color: #ffffff;
+  letter-spacing: 4%;
 }
 
 .button:hover {
   background-color: #404bbf;
+}
+
+.heading {
+  font-size: 36;
+  font-weight: 700;
+  line-height: 1.111;
+  color: #2e2f42;
+}
+
+.headline {
+  font-size: 20;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.accent-studio-white {
+  color: #f4f4fd;
+}
+
+.footer .text {
+  color: #f4f4fd;
 }
