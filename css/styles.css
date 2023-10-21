@@ -1,7 +1,36 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway" sans-serif;
   font-size: 16;
   line-height: 1.5;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav .accent-web {
+  font-size: 18;
+  font-weight: 700;
+  line-height: 1.667;
+  color: #4d5ae5;
+}
+
+.nav .accent-studio {
+  font-size: 18;
+  font-weight: 700;
+  line-height: 1.667;
+  color: #2e2f42;
+}
+
+.nav .link {
+  color: #2e2f42;
+}
+
+.page-address .link {
+  font-weight: 400;
+  font-style: normal;
   color: #434455;
 }
 
@@ -9,20 +38,16 @@ body {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+.link:hover,
+.link:focus {
+  color: #4d5ae5;
 }
 
-header {
-  background-color: #ffffff;
-  font-weight: 500;
+.title {
+  background-color: #2e2f42;
 }
 
-.address {
-  font-weight: 400;
-}
-
-h1 {
+.page-title {
   color: #ffffff;
   font-size: 56;
   font-weight: 700;
@@ -30,27 +55,11 @@ h1 {
   text-align: center;
 }
 
-.title {
-  background-color: #2e2f42;
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
 }
 
-.nav .accent-web {
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.nav .accent-studio {
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-.nav .link:hover,
-.nav .link:focus {
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.address .link:hover,
-.address .link:focus {
-  color: #4d5ae5;
+.button:hover {
+  background-color: #404bbf;
 }
