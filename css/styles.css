@@ -1,8 +1,8 @@
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
-  font-size: 16;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
@@ -11,43 +11,43 @@ ul {
   list-style-type: none;
 }
 
-.accent-web {
-  font-size: 18;
+.nav .link {
+  font-family: "Raleway" sans-serif;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1.667;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .accent-studio {
-  font-size: 18;
-  font-weight: 700;
-  line-height: 1.667;
-  letter-spacing: 3%;
   color: #2e2f42;
 }
 
-.nav .link {
+.list .link {
+  font-weight: 500;
+  text-transform: inherit;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.page-address .link {
-  font-weight: 400;
+.list .link:hover,
+.list .link:focus {
+  color: #404bbf;
+}
+
+.address {
   font-style: normal;
-  color: #434455;
+}
+
+.list-address .link:hover,
+.list-address .link:focus {
+  color: #404bbf;
 }
 
 .link {
   text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
-  color: #4d5ae5;
-}
-
-.link:active {
-  text-decoration: underline;
 }
 
 .section-title {
@@ -56,21 +56,26 @@ ul {
 
 .title {
   color: #ffffff;
-  font-size: 56;
+  font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
   background-color: #4d5ae5;
   color: #ffffff;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .heading {
@@ -81,9 +86,10 @@ ul {
 }
 
 .headline {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
