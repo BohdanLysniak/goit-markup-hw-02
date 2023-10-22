@@ -78,10 +78,21 @@ ul {
   cursor: pointer;
 }
 
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.team-dsc {
+  background-color: #ffffff;
+}
+
 .heading {
-  font-size: 36;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -97,10 +108,16 @@ ul {
   background-color: #2e2f42;
 }
 
-.accent-studio-white {
-  color: #f4f4fd;
+.footer .link {
+  font-family: "Raleway" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.footer .text {
+.accent-studio-footer {
   color: #f4f4fd;
 }
