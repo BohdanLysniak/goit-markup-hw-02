@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -12,7 +12,7 @@ ul {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -37,14 +37,17 @@ ul {
   color: #404bbf;
 }
 
-.link-address {
-  color: #434455;
+.contacts {
   font-style: normal;
+}
+
+.link-contacts {
+  color: #434455;
   text-decoration: none;
 }
 
-.link-address:hover,
-.link-address:focus {
+.link-contacts:hover,
+.link-contacts:focus {
   color: #404bbf;
 }
 
@@ -62,7 +65,7 @@ ul {
 }
 
 .button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -95,6 +98,7 @@ ul {
 }
 
 .headline {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -106,7 +110,7 @@ ul {
 }
 
 .logo-footer {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
